@@ -13,6 +13,7 @@ conflicts=('dwmblocks')
 build() 
 {
 	cd "$srcdir/$gitname"
+	cat /home/kirito/.config/dwmblocks/blocks.h > blocks.h
 	make
 }
 
