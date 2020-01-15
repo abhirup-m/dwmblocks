@@ -13,7 +13,6 @@ conflicts=('dwmblocks')
 build() 
 {
 	cd "$srcdir/$gitname"
-	cat ../../blocks.h > ./blocks.h
 	make
 }
 
