@@ -1,4 +1,4 @@
-pkgname=dwmblocks
+pkgname=dwmblocks-kirito
 gitname=dwmblocks
 pkgver=0.8.2
 pkgrel=1
