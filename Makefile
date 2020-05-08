@@ -5,5 +5,5 @@ dwmblocks.o: dwmblocks.c blocks.h
 clean:
 	rm *.o *.gch dwmblocks
 install: output
-	mkdir -p ~/.local/bin
-	cp -f dwmblocks ~/.local/bin/
+	mkdir -p /usr/local/bin
+	cp -f dwmblocks /usr/local/bin/
